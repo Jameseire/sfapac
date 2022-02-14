@@ -81,12 +81,12 @@
 		<ns3:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
 		                         Location="https://jamesreidy.accounts400.ondemand.com/saml2/idp/slo/jamesreidy.accounts400.ondemand.com"/>
 		<ns3:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
-		                              Location="https://jamesreidy.accounts400.ondemand.com/saml2/idp/acs/jamesreidy.accounts400.ondemand.com"
-		                              index="0"
-		                              isDefault="false"/>
-		<ns3:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
 		                              Location="https://jamesreidy.accounts400.ondemand.com/saml2/idp/acs/jamesreidy.accounts400.ondemand.com?sp=sfapac.accounts400.ondemand.com"
 		                              index="0"
 		                              isDefault="true"/>
+		<ns3:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+		                              Location="https://jamesreidy.accounts400.ondemand.com/saml2/idp/acs/jamesreidy.accounts400.ondemand.com"
+		                              index="0"
+		                              isDefault="false"/>
 	</ns3:SPSSODescriptor>
 </ns3:EntityDescriptor>
